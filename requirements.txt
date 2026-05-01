@@ -1,0 +1,24 @@
+# RAG Backend — FastAPI + ChromaDB + SentenceTransformers + Azure OpenAI
+# Install with: pip install -r requirements.txt
+
+# Web framework
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+
+# Azure OpenAI
+openai==1.77.0
+
+# Embeddings (runs locally)
+sentence-transformers==4.1.0
+
+# Vector database
+azure-cosmos==4.2.0
+
+# Validation & serialization
+pydantic==2.11.4
+
+# File handling (multipart form uploads)
+python-multipart==0.0.20
+
+# Environment variable management (.env file support)
+python-dotenv==1.1.0

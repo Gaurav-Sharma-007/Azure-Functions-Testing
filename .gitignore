@@ -1,0 +1,5 @@
+# Ignore environment variable files
+.venv
+
+# Ignore specific config files
+config.ini
