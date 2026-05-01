@@ -3,3 +3,6 @@
 
 # Ignore specific config files
 config.ini
+
+__pycache__/
+*.pyc  
